@@ -1,14 +1,14 @@
-# 🍷 Safra de Dados: Análise de Exportação de Vinhos (2009-2027)
+# Safra de Dados: Análise de Exportação de Vinhos (2009-2027)
 
 Este projeto que foi desenvolvido para o **Tech Challenge - FIAP Fase 1**, apresenta uma análise quantitativa e qualitativa das exportações de vinhos de mesa brasileiros, identificando os principais destinos por volume e valor monetário, com uma prospecção estatística para o próximo triênio.
 
-## 🛠️ Tecnologias e Metodologia
+## Tecnologias e Metodologia
 * **Linguagem**: Python 3.12
 * **Manipulação de Dados**: `Pandas` e `Numpy`.
 * **Previsão**: Modelo de **Regressão Linear** (`scikit-learn`) para projeções de 2025 a 2027.
 * **Visualização**: `Seaborn` e `Matplotlib`.
 
-## 🎯 Contexto do Mercado
+## Contexto do Mercado
 O vinho de mesa, produzido a partir de uvas não viníferas como Isabel, Concord e Niágara, representa mais de **80% da produção vinícola nacional**. Este segmento é impulsionado por um modelo de alto volume e menor valor agregado, sendo essencial para a penetração em mercados internacionais de entrada.
 
 ### Principais Parceiros Comerciais (2009-2024)
@@ -19,7 +19,7 @@ O vinho de mesa, produzido a partir de uvas não viníferas como Isabel, Concord
 ![Top 10 Importadores em Volume](img/top10_quantidade.png)
 > *Gráfico 1: Top 10 Importadores de Vinhos de Mesa em Quantidade de Litros (2009-2024).*
 
-## 📊 Análise Financeira e Comparativos
+## Análise Financeira e Comparativos
 O estudo destaca a evolução da receita gerada pelos principais parceiros. Enquanto a Rússia dominou o cenário até 2013, o Paraguai assumiu e manteve a liderança a partir de 2016.
 
 ![Maiores Compradores em Valor](img/top5_valor.png)
@@ -36,7 +36,7 @@ O cenário projetado aponta para a consolidação do Paraguai como o parceiro pr
 ![Projeção Futura](img/analise_projecao.png)
 > *Gráfico 4: Séries temporais históricas e projeção linear para o próximo triênio.*
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 ```text
 ├── data/               # Bases de dados originais (CSVs)
 ├── notebooks/          # Jupyter Notebook com a análise exploratória
